@@ -1,0 +1,26 @@
+name: dual_mode_app
+description: Proxi Social
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State
+  provider: ^6.0.0
+  # Network
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  # UI
+  google_fonts: ^6.1.0
+  lucide_icons: ^0.257.0
+  flutter_animate: ^4.2.0
+  cached_network_image: ^3.3.0
+  intl: ^0.18.0
+  # Hardware
+  image_picker: ^1.0.4
+  permission_handler: ^11.0.0
+  flutter_blue_plus: ^1.15.0
+
+flutter:
+  uses-material-design: true
